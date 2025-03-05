@@ -1,0 +1,75 @@
+body{
+    font-family: monospace;
+}
+ul{
+    font-family: Helvetica;
+}
+li{
+    list-style: circle;
+}
+.List{
+    list-style: square;
+}
+#msg{
+    font-family:monospace;
+}
+.light-theme {
+    color: black;
+   background-color:aqua;
+}
+.dark-theme{
+    color: aqua;
+    background-color: black;
+}
+
+:root {
+    --blue: 00ffff;
+    --black: 000000;
+    --white: ffffff;
+}
+.light-theme{
+--bg:var(--blue);
+--fontcolor:var(--black);
+}
+.dark-theme{
+--bg:var(--black);
+--fontcolor:var(--blue);
+}
+* {
+    color: var(--fontcolor);
+    font-family:helvetica;
+}
+body {
+background-color: var(--bg);
+}
+
+.btn{
+    color: var(--bntfontcolor);
+    background-color: var(--btnbg);
+}
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:focus{ outline-style: none;}
+
+.light-theme{
+    --bg:var(--blue)
+    --fontcolor:var(--black)
+    --btnbg:var(--black)
+--btnfontcolor:var(--white)
+}
+.dark-theme{
+    --bg:var(--black)
+   --fontcolor:var(--blue)
+   --btnbg:var(--white)
+   --btnfontcolor:var(--black)
+}
